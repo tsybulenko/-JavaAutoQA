@@ -15,8 +15,7 @@ public class InvertAr {
             } else {
                 arr[i] = 1;
             }
-            System.out.println(arr[i]);
+            //System.out.println(arr[i]);
         }
-
     }
 }
