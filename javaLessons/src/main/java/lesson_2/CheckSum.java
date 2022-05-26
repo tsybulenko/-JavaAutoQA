@@ -6,11 +6,6 @@ public class CheckSum {
     }
 
     public static boolean sumCheck(int a, int b) {
-        int sum = a + b;
-        if (sum >= 10 && sum <= 20) {
-            return true;
-        } else {
-            return false;
-        }
+        return a + b >= 10 && a + b <= 20;
     }
 }

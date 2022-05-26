@@ -1,7 +1,6 @@
 package lesson_2;
 
 
-
 public class InvertAr {
     public static void main(String[] args) {
         invertArr();
@@ -15,7 +14,8 @@ public class InvertAr {
             } else {
                 arr[i] = 1;
             }
-            //System.out.println(arr[i]);
+            System.out.print(arr[i]);
         }
+        System.out.println();
     }
 }
